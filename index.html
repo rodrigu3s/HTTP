@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <style>
+        .container{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .formulario{
+            background-color:#FCD64F;
+            min-height: 400px;
+            min-width: 500px;
+            border-radius: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .formulario input{
+            margin: 20px;
+            padding: 10px;
+            border: none;
+        }
+
+        input:focus{
+            box-shadow: 0 0 0 0; 
+            outline: 0;
+        }
+
+        .botoes{
+            margin-left: 400px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <form class="formulario">
+                
+            <input class="col-10" id="name" name="name" type="text" placeholder="Name" autoComplete="off">
+
+            <input class="col-10" id="email" name="email" type="email" placeholder="E-mail" autoComplete="off">
+            
+            <input class="col-10" id="phone" name="phone" type="text" placeholder="Phone" autoComplete="off">
+
+            <div class="botoes">
+                <button type="submit">Enviar</button>
+                <button type="submit">Listar</button>
+            </div>
+            
+
+            </form>
+        </div>
+    </div>
+
+
+
+    
+
+    <!-- Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

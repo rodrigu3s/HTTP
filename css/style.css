@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(57, 60, 61);
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#FCD64F;
+    min-height: 400px;
+    min-width: 500px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario input{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0; 
+    outline: 0;
+}
+
+.botoes{
+    margin-left: 400px;
+}
+
+.td{
+    padding-right: 100px;
+}
